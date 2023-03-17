@@ -1,0 +1,1095 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'first'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                },
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 2,
+                  "endLine": 12,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "create",
+                  "decoratedName": "?create@@YAXQEAHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 9,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 9,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 10,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 11,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "'first' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 12,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "'first' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 't'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 3,
+                  "endLine": 17,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "create",
+                  "decoratedName": "?create@@YAXQEAHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 9,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 9,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 10,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 11,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 12,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 13,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 14,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 15,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 15,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "'t' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'t' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'last'. See line 17 for an earlier location where this can occur"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 3,
+                  "endLine": 19,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "create",
+                  "decoratedName": "?create@@YAXQEAHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 9,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 9,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 10,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 11,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 12,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 13,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 14,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 15,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 15,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "'t' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 18,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 19,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "(alias) 'last' receives the value of 't' (which may be NULL)"
+                        }
+                      },
+                      "kinds": [
+                        "alias"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 15,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 15,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<n')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 18,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 19,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "'last' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 't'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                },
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 2,
+                  "endLine": 68,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "insert",
+                  "decoratedName": "?insert@@YAXPEAUNode@@HH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 64,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 67,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "'t' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 68,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "'t' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 't'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                },
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 2,
+                  "endLine": 85,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "sortedinsert",
+                  "decoratedName": "?sortedinsert@@YAXPEAUNode@@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 83,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 83,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 84,
+                            "startColumn": 4
+                          }
+                        },
+                        "message": {
+                          "text": "'t' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 85,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "'t' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'q'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                },
+                "region": {
+                  "startLine": 100,
+                  "startColumn": 4,
+                  "endLine": 100,
+                  "endColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "sortedinsert",
+                  "decoratedName": "?sortedinsert@@YAXPEAUNode@@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 83,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 83,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 84,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 85,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 86,
+                            "startColumn": 4
+                          }
+                        },
+                        "message": {
+                          "text": "'q' is NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 87,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'first==0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 91,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'p&&p->data<x' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 95,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'p==first' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "'q' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31629.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/C/Linkedllist/Linkedllist/Linkedllist.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "928067ae790143253ea50b7217f720e9cf468072e15dfe0fdecfcdf3c5240702"
+          }
+        }
+      ]
+    }
+  ]
+}

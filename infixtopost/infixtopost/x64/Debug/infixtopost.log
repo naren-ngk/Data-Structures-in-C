@@ -1,0 +1,3 @@
+﻿  infixtopost.cpp
+D:\C\infixtopost\infixtopost\infixtopost.cpp(93,25): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  infixtopost.vcxproj -> D:\C\infixtopost\x64\Debug\infixtopost.exe

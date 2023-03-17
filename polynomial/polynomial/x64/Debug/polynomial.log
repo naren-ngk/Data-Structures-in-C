@@ -1,0 +1,3 @@
+﻿  polynomial.cpp
+D:\C\polynomial\polynomial\polynomial.cpp(50,19): warning C4244: '+=': conversion from 'double' to 'long', possible loss of data
+  polynomial.vcxproj -> D:\C\polynomial\x64\Debug\polynomial.exe
